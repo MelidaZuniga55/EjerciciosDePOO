@@ -14,13 +14,14 @@ public class Persona {
     }
 
     public void concentrarse() {
-        System.out.println(nombre + " " + apellidos + " está concentrándose.");
+        System.out.println(nombre + " " + apellidos + " se está concentrando (desde clase Persona).");
     }
 
     public void viajar() {
         System.out.println(nombre + " " + apellidos + " está viajando con el equipo.");
     }
 
+    // Getters y setters
     public int getId() {
         return id;
     }

@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Edad: " + futbolista.getEdad());
         futbolista.concentrarse();
         futbolista.viajar();
+        futbolista.entrenar();
+        futbolista.jugarPartido();
 
         System.out.println();
 
@@ -17,6 +19,8 @@ public class Main {
         System.out.println("Edad: " + entrenador.getEdad());
         entrenador.concentrarse();
         entrenador.viajar();
+        entrenador.dirigirEntrenamiento();
+        entrenador.dirigirPartido();
 
         System.out.println();
 
@@ -29,5 +33,6 @@ public class Main {
         System.out.println("Años de experiencia: " + masajista.getAñosExperiencia());
         masajista.concentrarse();
         masajista.viajar();
+        masajista.darMasaje();
     }
 }
