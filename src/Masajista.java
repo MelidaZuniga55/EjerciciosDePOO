@@ -32,7 +32,7 @@ public class Masajista extends Persona {
         return aniosExperiencia;
     }
 
-    public void setAñosExperiencia(int aniosExperiencia) {
+    public void setAniosExperiencia(int aniosExperiencia) {
         this.aniosExperiencia = aniosExperiencia;
     }
 }
