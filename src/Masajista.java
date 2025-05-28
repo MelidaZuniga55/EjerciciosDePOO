@@ -1,13 +1,13 @@
 public class Masajista extends Persona {
     private String titulacion;
-    private int añosExperiencia;
+    private int aniosExperiencia;
 
     public Masajista() {}
 
-    public Masajista(int id, String nombre, String apellidos, int edad, String titulacion, int añosExperiencia) {
+    public Masajista(int id, String nombre, String apellidos, int edad, String titulacion, int aniosExperiencia) {
         super(id, nombre, apellidos, edad);
         this.titulacion = titulacion;
-        this.añosExperiencia = añosExperiencia;
+        this.aniosExperiencia = aniosExperiencia;
     }
 
     @Override
@@ -28,11 +28,11 @@ public class Masajista extends Persona {
         this.titulacion = titulacion;
     }
 
-    public int getAñosExperiencia() {
-        return añosExperiencia;
+    public int getAniosExperiencia() {
+        return aniosExperiencia;
     }
 
-    public void setAñosExperiencia(int añosExperiencia) {
-        this.añosExperiencia = añosExperiencia;
+    public void setAñosExperiencia(int aniosExperiencia) {
+        this.aniosExperiencia = aniosExperiencia;
     }
 }

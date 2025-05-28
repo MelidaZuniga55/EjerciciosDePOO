@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Nombre: " + masajista.getNombre() + " " + masajista.getApellidos());
         System.out.println("Edad: " + masajista.getEdad());
         System.out.println("Titulación: " + masajista.getTitulacion());
-        System.out.println("Años de experiencia: " + masajista.getAñosExperiencia());
+        System.out.println("Anios de experiencia: " + masajista.getAniosExperiencia());
         masajista.concentrarse();
         masajista.viajar();
         masajista.darMasaje();
